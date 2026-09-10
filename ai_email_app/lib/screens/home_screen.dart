@@ -49,6 +49,7 @@ class _HomeScreenState extends State<HomeScreen> {
     return Scaffold(
       appBar: AppBar(
         title: const Text("AI Email Generator"),
+        centerTitle: true,
       ),
       body: Padding(
         padding: const EdgeInsets.all(16),
